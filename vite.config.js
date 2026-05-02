@@ -27,6 +27,12 @@ function fixPaymentScrollTarget() {
         '<section id="fees" className="px-5 py-20"><div id="payment" className="scroll-mt-28"></div>'
       );
 
+      // Replace temporary review placeholder text with a professional parent-focused line.
+      updated = updated.replace(
+        'text="මෙම අදහස් sample ලෙස දමා ඇත. පසුව සැබෑ reviews ලැබුණු විට ඒවාට replace කළ හැක."',
+        'text="දරුවාගේ විශ්වාසය, සිතීමේ හැකියාව සහ ප්‍රශ්න විසඳීමේ පුහුණුව වර්ධනය වීම පිළිබඳ දෙමාපියන්ගේ අදහස්."'
+      );
+
       return updated;
     },
   };
